@@ -15,7 +15,7 @@ $key=$_GET["Country"];
 if (array_key_exists($key, $countries)) {
     echo $countries[$key];
 } else {
-	echo "error";
+	echo "Sorry, this country is not listed.";
 }
 ?>
 
